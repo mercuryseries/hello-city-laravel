@@ -3,7 +3,7 @@
 @section('title', 'About Us | ' . config('app.name'))
 
 @section('content')
-    <img src="/images/tdn-logo.png" alt="TDN Logo">
+    <img src="{{ asset('images/tdn-logo.png') }}" alt="TDN Logo">
 
     <p>Built with &hearts; by LES TEACHERS DU NET.</p>
 
